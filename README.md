@@ -40,7 +40,7 @@ Now we run following codes:
 // /home/hastijs/
 console.log(require('./plus-one')());
 console.log(require('./plus-one')());
-console.log(require('./times-tow')());
+console.log(require('./times-two')());
 // => 3
 // => 4
 // => 4
@@ -55,7 +55,7 @@ The solution is `require-and-clean` module.
 const requireAndClean = require('require-and-clean');
 console.log(requireAndClean('./plus-one')());
 console.log(requireAndClean('./plus-one')());
-console.log(requireAndClean('./times-tow')());
+console.log(requireAndClean('./times-two')());
 // => 3
 // => 3
 // => 2
@@ -68,7 +68,7 @@ console.log(requireAndClean('./times-tow')());
 const requireAndClean = require('require-and-clean');
 console.log(require('./plus-one')());
 console.log(requireAndClean('./plus-one')());
-console.log(requireAndClean('./times-tow')());
+console.log(requireAndClean('./times-two')());
 // => 3
 // => 4
 // => 4
